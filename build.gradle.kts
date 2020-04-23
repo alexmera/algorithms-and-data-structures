@@ -7,9 +7,11 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
+    implementation("edu.princeton.cs:algs4:1.0.4")
     implementation("com.google.code.findbugs:jsr305:3.0.2")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
